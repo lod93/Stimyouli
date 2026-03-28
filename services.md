@@ -8,11 +8,11 @@ The Stimyouli Group offers a comprehensive suite of digital solutions through ou
 
 Powered by **Stimyouli.com**, our engineering team builds high-performance, scalable software.
 
-- **CMS & Web Development**: Expertise in WordPress, Headless CMS, and custom PHP frameworks (Laravel).
-- **Mobile App Development**: Native and cross-platform (React Native) solutions for iOS and Android.
-- **Cloud & DevOps**: Infrastructure management, CI/CD pipelines, and high-availability architecture.
-- **AI & Machine Learning**: Custom AI models, computer vision, and predictive analytics (TensorFlow/Python).
-- **QA & Testing**: Rigorous automated and manual testing for mission-critical software.
+- **Backend Engineering**: Next.js (Server-side architecture), Node.js, Flask.
+- **Frontend Architecture**: Next.js, React, Tailwind CSS.
+- **AI Pipelines**: Generation, validation, and automation systems.
+- **Real-time Systems**: Streaming data, interactive charts, and high-concurrency workloads.
+- **Infrastructure Architecture**: Large-scale hosting, deployment optimization, and Linux-based infrastructure design.
 
 ---
 

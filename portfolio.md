@@ -20,7 +20,7 @@ A curated selection of our most successful digital products, demonstrating our e
 - **Solution**: Corporate portals for engineering firms, highlighting complex project management and safety standards.
 - **Regional Reach**: Serving the Egyptian and Saudi Arabian markets.
 
-### 4. **Stylishfurniture.shop** (Retail E-commerce)
+### 4. **Stylishfurniture.store** (Retail E-commerce)
 - **Sector**: Furniture & Interior Design.
 - **Solution**: Visually-driven e-commerce store with integrated inventory and sales management.
 
