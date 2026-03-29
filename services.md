@@ -1,3 +1,9 @@
+---
+title: Digital Solutions & Services | Stimyouli Group
+description: Detailed services for Software Engineering, AI Pipelines, Cloud Infrastructure, and Digital Growth. High-performance systems built for MENA and international markets.
+keywords: Next.js Development, Cloud Hosting Egypt, AI Automation, Digital Marketing Agency Cairo, SaaS Business Solutions
+---
+
 # Stimyouli Group | Services
 
 The Stimyouli Group offers a comprehensive suite of digital solutions through our specialized brands. We provide the expertise and infrastructure needed for full-spectrum digital transformation.

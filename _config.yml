@@ -1,0 +1,20 @@
+title: Stimyouli Group
+description: Cairo-based engineering and infrastructure company building scalable web systems, SaaS platforms, and cloud services.
+remote_theme: jekyll/minima
+google_analytics: # Add your UA-XXXXX-Y if you have one
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO Metadata
+twitter:
+  username: stimyouli
+  card: summary_large_image
+logo: /social-preview.png
+social:
+  name: Stimyouli Group
+  links:
+    - https://stimyouli.com
+    - https://1100.website
+    - https://jabalhost.com
+    - https://aklatix.cloud

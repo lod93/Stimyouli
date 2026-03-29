@@ -89,9 +89,12 @@ Stimyouli Group is a Cairo-based engineering and infrastructure ecosystem buildi
 
 - High-concurrency system design
 - Low-latency data handling
-- Scalable backend architecture
-- SEO-first frontend structure
+- Scalable backend architecture (Node.js, Flask)
+- SEO-first frontend structure (Next.js, React)
 - Modular and maintainable systems
+- Cairo-based engineering expertise
+- Cloud infrastructure (Jabalhost, 1100.website)
+- SaaS platform development (Aklatix)
 
 ---
 

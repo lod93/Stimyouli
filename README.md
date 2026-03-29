@@ -1,19 +1,31 @@
+---
+title: Stimyouli Group | Engineering & Cloud Infrastructure
+description: Cairo-based engineering and infrastructure company building scalable web systems, SaaS platforms, and cloud services. Experts in Next.js, Node.js, and Cloud Infrastructure.
+keywords: Software Engineering Cairo, Cloud Infrastructure Egypt, SaaS Platforms, Next.js Development, Web Systems, Stimyouli Group
+---
+
 # Stimyouli Group
 
-Stimyouli Group is a Cairo-based engineering and infrastructure company building scalable web systems, SaaS platforms, and cloud services.
+![Stimyouli Social Preview](social-preview.png)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Stack: Next.js](https://img.shields.io/badge/Stack-Next.js-black)](https://nextjs.org/)
+[![Region: MENA](https://img.shields.io/badge/Region-MENA-orange)](https://stimyouli.com)
+
+**Stimyouli Group** is a Cairo-based engineering and infrastructure powerhouse specializing in high-performance web systems, scalable SaaS platforms, and enterprise-grade cloud services. We bridge the gap between complex engineering and real-world business impact.
 
 ---
 
-## Overview
+## 🏗️ Core Expertise
 
-Stimyouli operates as a multi-entity digital ecosystem combining:
+Our multi-entity ecosystem is built for scale, providing everything from software architecture to global hosting infrastructure.
 
-- Software Engineering
-- Cloud Infrastructure
-- SaaS Platforms
-- Growth & Marketing Systems
+- **[Software Engineering](services.md)**: Custom-built web platforms using Next.js, React, and Node.js.
+- **[Cloud Infrastructure](services.md)**: High-availability hosting and VPS solutions via [Jabalhost](https://jabalhost.com) and [1100.website](https://1100.website).
+- **[SaaS Solutions](services.md)**: Cloud POS and business management systems like [Aklatix](https://aklatix.cloud).
+- **[Growth Systems](services.md)**: Digital marketing and SEO-driven architecture for rapid brand scaling.
 
-We design and deploy production-grade systems focused on **performance, scalability, and real-world business impact**.
+We design and deploy production-grade systems focused on **performance, low-latency, and global scalability**.
 
 ---
 
