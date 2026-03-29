@@ -3,8 +3,8 @@
   "@type": "Organization",
   "name": "Stimyouli Group",
   "url": "https://stimyouli.com/",
-  "logo": "https://stimyouli.com/favicon.ico",
-  "description": "Stimyouli Group is a Cairo-based digital conglomerate specializing in Software Engineering, Global Hosting, Cloud SaaS, and Digital Marketing.",
+  "logo": "https://stimyouli.com/wp-content/uploads/2024/04/stimyouli-dark-logo.png",
+  "description": "Stimyouli Group is a Cairo-based digital conglomerate managing an ecosystem of brands across software engineering, global hosting, enterprise consultancy, e-commerce, and industrial solutions.",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Cairo",
@@ -54,34 +54,48 @@
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Digital Services",
+    "name": "Stimyouli Ecosystem Offerings",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Software Engineering & AI"
+          "name": "Software Engineering & Infrastructure (Stimyouli, 1100.website, Jabalhost, Elsakr)"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Global Web Hosting & VPS"
+          "name": "Enterprise SaaS & Cloud POS (Aklatix.cloud, Be3.click)"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Digital Marketing & Growth"
+          "name": "Consultancy & Management (Esnad-om, Tryangle, Map-eg)"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Cloud POS (SaaS)"
+          "name": "Digital Commerce & Retail (Noir-eg, El3asima, Stylishfurniture, Moodmakers)"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Industrial & Engineering (EUElevators, Infinitylifts, Setara, Purecite)"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Education & Creative (Ozone-camp, Secretagencyegypt, Pencilplan)"
         }
       }
     ]

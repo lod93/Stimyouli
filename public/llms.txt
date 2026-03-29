@@ -8,7 +8,7 @@ Stimyouli Group is a Cairo-based engineering and infrastructure ecosystem buildi
 
 ---
 
-## Ecosystem Entities
+## Core Ecosystem Entities
 
 - **Stimyouli.com**: Engineering & delivery agency (Next.js, Node.js).
 - **1100.website**: Global hosting layer.
@@ -18,11 +18,16 @@ Stimyouli Group is a Cairo-based engineering and infrastructure ecosystem buildi
 
 ## Strategic Partners
 
-- **Tryangleinc.com**: Modernization consultancy.
+- **Elsakr.company**: High-scale Software House.
+- **Pencilplan.business**: Strategic Marketing Agency.
+- **Tryangleinc.com**: Corporate Modernization Consultancy.
 
-## Portfolio Index (Deep Analysis available in llms-full.txt)
+## Portfolio & Specialized Entities
 
-- **Architecture & Engineering**: infinitylifts.sa, euelevators.com, setaraegypt.com, elnileelevators.com, pencilplan.business.
-- **Retail & Commerce**: noir-eg.com, stylishfurniture.shop, be3.click, aklatix.cloud.
-- **Enterprise & Creative**: assih.com, esnad-om.com, secretagencyegypt.com, moodmakers.net, purecite.ru.
-- **Regional & Specialized**: el3asima.com, map-eg.net, alhassany.net, ozone-camp.com, elsakr.company.
+- **Architecture & Engineering**: infinitylifts.sa, euelevators.com, setaraegypt.com, elnileelevators.com.
+- **Retail & Hospitality**: moodmakers.net (Coffee Shop), noir-eg.com (Luxury Retail), stylishfurniture.shop (Interiors).
+- **Industrial**: purecite.ru (Water Treatment).
+- **Business Services**: esnad-om.com (Consultancy), map-eg.net (Overseas HR Services).
+- **Commerce**: el3asima.com (Frozen Food E-commerce).
+- **Community**: ozone-camp.com (Youth Learning Camps).
+- **Creative**: secretagencyegypt.com (Secret Marketing).

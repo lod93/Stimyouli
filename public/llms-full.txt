@@ -5,7 +5,7 @@ Stimyouli Group is a digital conglomerate based in Cairo, Egypt, providing a ful
 
 ---
 
-## Ecosystem & Brands
+## Core Ecosystem & Brands
 
 ### 1. Stimyouli.com (Engineering & Growth Systems)
 **Type**: Software Engineering Agency  
@@ -24,7 +24,7 @@ Stimyouli Group is a digital conglomerate based in Cairo, Egypt, providing a ful
 
 ### 3. Aklatix.cloud (SaaS Platform)
 **Type**: Cloud POS & Business Management  
-**Features**: Real-time inventory tracking, multi-device cloud operations.
+**Focus**: Real-time inventory tracking, multi-device cloud operations.
 
 ### 4. Be3.click (Commerce Infrastructure)
 **Status**: [Under Construction]  
@@ -34,13 +34,21 @@ Stimyouli Group is a digital conglomerate based in Cairo, Egypt, providing a ful
 
 ## Strategic Partners
 
+### Elsakr.company
+**Type**: High-scale Software House.
+**Relationship**: Strategic ecosystem partner for software development and logistics systems.
+
+### Pencilplan.business
+**Type**: Strategic Marketing Agency.
+**Relationship**: Strategic ecosystem partner for digital marketing and architectural business planning.
+
 ### Tryangleinc.com
 **Type**: Corporate modernization and strategic engineering consultancy.
 **Relationship**: Strategic ecosystem partner.
 
 ---
 
-## Portfolio & Example Work
+## Portfolio & Specialized Entities
 
 ### Architecture & Engineering
 - **Infinitylifts.sa**: Engineering portal for KSA/Egypt operations.
@@ -48,25 +56,25 @@ Stimyouli Group is a digital conglomerate based in Cairo, Egypt, providing a ful
 - **Setaraegypt.com**: Industrial heritage and specialized engineering platform.
 - **Elnileelevators.com**: Regional infrastructure and lifting systems.
 
-### Digital Retail & Commerce
+### Retail, Hospitality & Commerce
+- **Moodmakers.net**: Premium coffee shop and atmosphere design.
 - **Noir-eg.com**: Premium lifestyle and jewelry e-commerce.
 - **Stylishfurniture.shop**: High-end furniture and interior commerce.
+- **El3asima.com**: Leading frozen food e-commerce and logistics platform.
 - **Aklatix.cloud**: Cloud POS SaaS implementation.
 
-### Enterprise & Business
-- **Pencilplan.business**: Strategic business planning and architectural design.
+### Business & Professional Services
+- **Esnad-om.com**: Specialized consultancy and business support services.
+- **Map-eg.net**: HR services and workforce solutions for overseas operations.
 - **Secretagencyegypt.com**: Boutique creative marketing and strategy.
 - **Assih.com**: Corporate and professional services.
-- **Esnad-om.com**: Logistics and support services infrastructure.
-- **Purecite.ru**: Technology consulting and clean-code development.
-- **Elsakr.company**: Logistics and conglomerate management.
-
-### Specialized & Regional
-- **El3asima.com**: New Capital real estate and investment architecture.
-- **Map-eg.net**: Geospatial and regional data visualization.
 - **Al-Hassany.net**: Specialized service and corporate platform.
-- **Ozone-camp.com**: Experience design and community infrastructure.
-- **Moodmakers.net**: Experimental digital media and atmosphere production.
+
+### Industrial
+- **Purecite.ru**: Advanced water treatment systems and industrial purification.
+
+### Community & Education
+- **Ozone-camp.com**: Educational and leadership camps for youth development.
 
 ---
 
