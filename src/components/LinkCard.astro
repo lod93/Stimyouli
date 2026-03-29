@@ -1,0 +1,31 @@
+---
+interface Props {
+	title: string;
+	description: string;
+	href: string;
+	tag: string;
+}
+
+const { href, title, description, tag } = Astro.props;
+---
+
+<a href={href} class="group relative block p-8 rounded-2xl bg-dark-gray/40 border border-white/5 transition-all duration-300 hover:border-neon-cyan/50 hover:bg-dark-gray/60 overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-br from-neon-cyan/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+  
+  <span class="inline-block text-[10px] font-bold tracking-[0.2em] text-neon-cyan uppercase mb-4 opacity-70">
+    {tag}
+  </span>
+  
+  <h3 class="text-xl font-bold text-white mb-2 group-hover:text-neon-cyan transition-colors">
+    {title}
+  </h3>
+  
+  <p class="text-sm text-gray-400 leading-relaxed max-w-[280px]">
+    {description}
+  </p>
+  
+  <div class="mt-6 flex items-center gap-2 text-neon-cyan opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
+    <span class="text-xs font-bold uppercase tracking-widest">Explore</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+  </div>
+</a>

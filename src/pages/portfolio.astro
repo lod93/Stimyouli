@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import LinkCard from '../components/LinkCard.astro';
+---
+
+<Layout title="Portfolio" description="Selected work and strategic partner case studies.">
+	<Navigation />
+	
+	<main class="max-w-7xl mx-auto px-6 py-24">
+		<h1 class="text-5xl font-bold mb-8 text-gradient">Portfolio</h1>
+		<p class="text-xl text-gray-400 max-w-2xl mb-16 leading-relaxed">
+			A curated selection of our most successful digital products, demonstrating our expertise across diverse industries and technologies.
+		</p>
+
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-32">
+			<LinkCard 
+				tag="Fashion" 
+				title="Noir-eg.com" 
+				description="Premium lifestyle accessories and jewelry platform with a dominant online presence in Egypt."
+				href="https://noir-eg.com"
+			/>
+			<LinkCard 
+				tag="Industrial" 
+				title="Setaraegypt.com" 
+				description="Modern corporate platform demonstrating industrial heritage and specialized engineering capabilities."
+				href="https://setaraegypt.com"
+			/>
+			<LinkCard 
+				tag="Logistics" 
+				title="Infinitylifts.sa" 
+				description="Corporate portals for engineering firms in KSA/Egypt, highlighting safety and complex project management."
+				href="https://infinitylifts.sa"
+			/>
+			<LinkCard 
+				tag="Retail" 
+				title="Stylishfurniture.store" 
+				description="Visually-driven e-commerce store with integrated sales management and interior design focus."
+				href="https://stylishfurniture.store"
+			/>
+		</div>
+
+    <section class="border-t border-white/5 pt-20">
+      <h2 class="text-3xl font-bold mb-12">Strategic Partners</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12 opacity-50 grayscale hover:grayscale-0 transition-all">
+        <div class="flex items-center justify-center h-20 bg-white/5 rounded-xl border border-white/5">Logo 1</div>
+        <div class="flex items-center justify-center h-20 bg-white/5 rounded-xl border border-white/5">Logo 2</div>
+        <div class="flex items-center justify-center h-20 bg-white/5 rounded-xl border border-white/5">Logo 3</div>
+        <div class="flex items-center justify-center h-20 bg-white/5 rounded-xl border border-white/5">Logo 4</div>
+        <div class="flex items-center justify-center h-20 bg-white/5 rounded-xl border border-white/5">Logo 5</div>
+      </div>
+    </section>
+	</main>
+
+	<Footer />
+</Layout>

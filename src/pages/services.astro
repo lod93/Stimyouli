@@ -1,0 +1,90 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import LinkCard from '../components/LinkCard.astro';
+---
+
+<Layout title="Services" description="Detailed digital solutions from software engineering to global infrastructure.">
+	<Navigation />
+	
+	<main class="max-w-7xl mx-auto px-6 py-24">
+		<h1 class="text-5xl font-bold mb-8 text-gradient">Our Services</h1>
+		<p class="text-xl text-gray-400 max-w-2xl mb-16 leading-relaxed">
+			Comprehensive digital solutions across the engineering and infrastructure spectrum. We build for performance, scale, and reliability.
+		</p>
+
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+			<LinkCard 
+				tag="Engineering" 
+				title="Software Engineering" 
+				description="High-performance, scalable software building with Next.js, Node.js, and Flask."
+				href="#engineering"
+			/>
+			<LinkCard 
+				tag="Infrastructure" 
+				title="Cloud & Hosting" 
+				description="Global cloud hosting and VPS solutions via 1100.website and Jabalhost."
+				href="#infrastructure"
+			/>
+			<LinkCard 
+				tag="SaaS" 
+				title="Business Solutions" 
+				description="Cloud-native platforms like Aklatix.cloud for real-time operations."
+				href="#saas"
+			/>
+		</div>
+
+		<div class="mt-40 space-y-32">
+			<section id="engineering">
+				<h2 class="text-4xl font-bold mb-8 text-white">Software Engineering & AI</h2>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="space-y-6">
+            <p class="text-gray-400 text-lg leading-relaxed">
+              We specialize in production-grade systems using modern stacks like Next.js and React. Our engineering philosophy is centered around robustness and user experience.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              {['Next.js', 'React', 'Node.js', 'Flask', 'PostgreSQL'].map(tech => (
+                <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-medium text-gray-500">{tech}</span>
+              ))}
+            </div>
+          </div>
+          <div class="glass-card">
+            <h4 class="text-neon-cyan font-bold mb-4 uppercase tracking-tighter">Capabilities</h4>
+            <ul class="space-y-3 text-sm">
+              <li class="text-gray-300">Real-time data synchronization</li>
+              <li class="text-gray-300">AI-driven content generation pipelines</li>
+              <li class="text-gray-300">SEO-first frontend architecture</li>
+            </ul>
+          </div>
+        </div>
+			</section>
+
+			<section id="infrastructure">
+				<h2 class="text-4xl font-bold mb-8 text-white">Infrastructure & Hosting</h2>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="space-y-6">
+            <p class="text-gray-400 text-lg leading-relaxed">
+              Performance-first hosting with 1100.website and Jabalhost. We manage the stack so you can focus on building your brand.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              {['NVMe Storage', 'LiteSpeed', 'DirectAdmin', 'CloudFlare'].map(tech => (
+                <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-medium text-gray-500">{tech}</span>
+              ))}
+            </div>
+          </div>
+          <div class="glass-card">
+            <h4 class="text-neon-cyan font-bold mb-4 uppercase tracking-tighter">Performance</h4>
+            <ul class="space-y-3 text-sm">
+              <li class="text-gray-300">99.9% Uptime Guarantee</li>
+              <li class="text-gray-300">Multi-layer security firewalls</li>
+              <li class="text-gray-300">Dedicated corporate support</li>
+            </ul>
+          </div>
+        </div>
+			</section>
+		</div>
+	</main>
+
+	<Footer />
+</Layout>

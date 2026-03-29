@@ -1,0 +1,38 @@
+---
+const navItems = [
+  { href: '/stimyouli-public-repo/', label: 'Home' },
+  { href: '/stimyouli-public-repo/services', label: 'Services' },
+  { href: '/stimyouli-public-repo/portfolio', label: 'Portfolio' },
+  { href: '/stimyouli-public-repo/company-profile', label: 'Profile' },
+];
+---
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-true-black/80 backdrop-blur-md border-b border-white/5">
+  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    <a href="/stimyouli-public-repo/" class="flex items-center gap-2 group">
+      <div class="w-8 h-8 rounded-lg bg-neon-cyan flex items-center justify-center group-hover:rotate-12 transition-transform">
+        <span class="text-true-black font-bold text-xl">S</span>
+      </div>
+      <span class="font-display text-xl font-bold tracking-tighter">STIMYOULI</span>
+    </a>
+    
+    <div class="hidden md:flex items-center gap-8">
+      {navItems.map(item => (
+        <a 
+          href={item.href} 
+          class="text-sm font-medium text-gray-400 hover:text-neon-cyan transition-colors"
+        >
+          {item.label}
+        </a>
+      ))}
+      <a 
+        href="mailto:info@stimyouli.com" 
+        class="bg-neon-cyan text-true-black px-5 py-2 rounded-full text-sm font-bold hover:bg-white transition-colors"
+      >
+        Contact
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div class="h-20"></div>

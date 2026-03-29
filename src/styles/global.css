@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-true-black text-gray-300 font-sans selection:bg-neon-cyan selection:text-true-black;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display text-white tracking-tight;
+  }
+}
+
+.glass-card {
+  @apply bg-dark-gray/50 border border-white/10 rounded-2xl p-6 transition-all duration-300 hover:border-neon-cyan/50 hover:bg-dark-gray/80;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500;
+}
+
+.neon-glow {
+  @apply shadow-[0_0_20px_rgba(0,242,255,0.2)] border-neon-cyan/50;
+}
