@@ -3,38 +3,42 @@ import Layout from '../layouts/Layout.astro';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import LinkCard from '../components/LinkCard.astro';
+const base = import.meta.env.BASE_URL;
 ---
 
 <Layout title="Engineering & Infrastructure" description="Stimyouli Group - Cairo-based engineering and infrastructure company building scalable web systems, SaaS platforms, and cloud services.">
 	<Navigation />
 	
-	<main class="max-w-7xl mx-auto px-6 pt-24 pb-32">
+	<main class="max-w-7xl mx-auto px-6 pt-32 pb-48">
 		<!-- Hero Section -->
-		<section class="py-20 md:py-32">
-			<div class="max-w-3xl">
-				<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neon-cyan/10 border border-neon-cyan/20 mb-8">
+		<section class="py-24 md:py-40 relative">
+      <!-- Background Glow -->
+      <div class="absolute -top-24 -left-24 w-96 h-96 bg-neon-cyan/10 rounded-full blur-[120px] pointer-events-none"></div>
+      
+			<div class="max-w-4xl relative z-10">
+				<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 mb-10">
 					<span class="relative flex h-2 w-2">
 						<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-neon-cyan opacity-75"></span>
 						<span class="relative inline-flex rounded-full h-2 w-2 bg-neon-cyan"></span>
 					</span>
-					<span class="text-[10px] font-bold tracking-widest text-neon-cyan uppercase">Now Indexing for 2026</span>
+					<span class="text-[10px] font-bold tracking-[0.2em] text-gray-400 uppercase">Architecture for 2026</span>
 				</div>
 				
-				<h1 class="text-5xl md:text-7xl font-bold leading-[1.1] mb-8 text-gradient">
-					Building Scalable <br/>
-					<span class="text-neon-cyan">Digital Ecosystems</span>
+				<h1 class="text-6xl md:text-8xl font-black leading-[0.9] mb-10 tracking-tighter text-white">
+					Engineering <br/>
+					<span class="text-neon-cyan drop-shadow-[0_0_30px_rgba(0,242,255,0.2)]">Future States.</span>
 				</h1>
 				
-				<p class="text-xl text-gray-400 leading-relaxed max-w-2xl mb-12">
-					Stimyouli Group is a Cairo-based engineering and infrastructure powerhouse specializing in high-performance web systems, SaaS platforms, and cloud services. We bridge the gap between complex engineering and real-world business impact.
+				<p class="text-xl md:text-2xl text-gray-500 leading-relaxed max-w-2xl mb-14 font-medium">
+					Stimyouli Group is a technical powerhouse specializing in high-concurrency web systems and global cloud infrastructure.
 				</p>
 				
-				<div class="flex flex-wrap gap-4">
-					<a href="/stimyouli-public-repo/services" class="bg-neon-cyan text-true-black px-8 py-4 rounded-full font-bold hover:bg-white transition-colors">
-						View Services
+				<div class="flex flex-wrap gap-6">
+					<a href={`${base}/services`} class="bg-white text-true-black px-10 py-5 rounded-2xl font-bold hover:bg-neon-cyan transition-all duration-300 hover:scale-[1.02] shadow-xl">
+						Our Services
 					</a>
-					<a href="/stimyouli-public-repo/portfolio" class="px-8 py-4 rounded-full font-bold text-white border border-white/10 hover:bg-white/5 transition-colors">
-						See Portfolio
+					<a href={`${base}/portfolio`} class="px-10 py-5 rounded-2xl font-bold text-white border border-white/10 hover:bg-white/5 transition-all duration-300">
+						Explore Portfolio
 					</a>
 				</div>
 			</div>

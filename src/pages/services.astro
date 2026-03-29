@@ -3,35 +3,36 @@ import Layout from '../layouts/Layout.astro';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import LinkCard from '../components/LinkCard.astro';
+const base = import.meta.env.BASE_URL;
 ---
 
 <Layout title="Services" description="Detailed digital solutions from software engineering to global infrastructure.">
 	<Navigation />
 	
-	<main class="max-w-7xl mx-auto px-6 py-24">
-		<h1 class="text-5xl font-bold mb-8 text-gradient">Our Services</h1>
-		<p class="text-xl text-gray-400 max-w-2xl mb-16 leading-relaxed">
+	<main class="max-w-7xl mx-auto px-6 py-32">
+		<h1 class="text-6xl font-black mb-10 tracking-tighter text-white">Our Services</h1>
+		<p class="text-xl text-gray-500 max-w-2xl mb-24 leading-relaxed font-medium">
 			Comprehensive digital solutions across the engineering and infrastructure spectrum. We build for performance, scale, and reliability.
 		</p>
 
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 			<LinkCard 
 				tag="Engineering" 
 				title="Software Engineering" 
 				description="High-performance, scalable software building with Next.js, Node.js, and Flask."
-				href="#engineering"
+				href={`${base}/#engineering`}
 			/>
 			<LinkCard 
 				tag="Infrastructure" 
 				title="Cloud & Hosting" 
 				description="Global cloud hosting and VPS solutions via 1100.website and Jabalhost."
-				href="#infrastructure"
+				href={`${base}/#infrastructure`}
 			/>
 			<LinkCard 
 				tag="SaaS" 
 				title="Business Solutions" 
 				description="Cloud-native platforms like Aklatix.cloud for real-time operations."
-				href="#saas"
+				href="https://aklatix.cloud"
 			/>
 		</div>
 

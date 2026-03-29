@@ -7,40 +7,34 @@ interface Props {
 }
 
 const { title, description = "Stimyouli Group - Software Engineering & Infrastructure" } = Astro.props;
+const base = import.meta.env.BASE_URL;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="bg-true-black text-white antialiased">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} | Stimyouli Group</title>
+		
     <!-- Resource Hints -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
 	</head>
-	<body class="antialiased selection:bg-neon-cyan selection:text-true-black overflow-x-hidden">
-    <div class="fixed inset-0 -z-10 bg-true-black">
-      <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,_#00f2ff10_0%,_transparent_50%)]"></div>
-    </div>
+	<body class="selection:bg-neon-cyan selection:text-true-black overflow-x-hidden">
+		<!-- Noise Overlay -->
+		<div class="fixed inset-0 z-[9999] opacity-[0.03] pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"></div>
+		
+		<!-- Background Gradient -->
+		<div class="fixed inset-0 -z-10 bg-true-black">
+			<div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-neon-cyan opacity-[0.05] blur-[120px]"></div>
+			<div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-neon-cyan opacity-[0.03] blur-[120px]"></div>
+		</div>
+
 		<slot />
 	</body>
 </html>
-
-<style is:global>
-	:root {
-		--accent: 0, 242, 255;
-		--accent-light: 100, 245, 255;
-		--accent-dark: 0, 163, 173;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-	}
-</style>

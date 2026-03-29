@@ -1,19 +1,19 @@
----
+const base = import.meta.env.BASE_URL;
 const navItems = [
-  { href: '/stimyouli-public-repo/', label: 'Home' },
-  { href: '/stimyouli-public-repo/services', label: 'Services' },
-  { href: '/stimyouli-public-repo/portfolio', label: 'Portfolio' },
-  { href: '/stimyouli-public-repo/company-profile', label: 'Profile' },
+  { href: `${base}/`, label: 'Home' },
+  { href: `${base}/services`, label: 'Services' },
+  { href: `${base}/portfolio`, label: 'Portfolio' },
+  { href: `${base}/company-profile`, label: 'Profile' },
 ];
 ---
 
-<nav class="fixed top-0 left-0 right-0 z-50 bg-true-black/80 backdrop-blur-md border-b border-white/5">
+<nav class="fixed top-0 left-0 right-0 z-50 bg-true-black/90 backdrop-blur-xl border-b border-white/5">
   <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-    <a href="/stimyouli-public-repo/" class="flex items-center gap-2 group">
-      <div class="w-8 h-8 rounded-lg bg-neon-cyan flex items-center justify-center group-hover:rotate-12 transition-transform">
+    <a href={`${base}/`} class="flex items-center gap-3 group">
+      <div class="w-10 h-10 rounded-xl bg-neon-cyan flex items-center justify-center group-hover:scale-105 transition-transform shadow-[0_0_20px_rgba(0,242,255,0.3)]">
         <span class="text-true-black font-bold text-xl">S</span>
       </div>
-      <span class="font-display text-xl font-bold tracking-tighter">STIMYOULI</span>
+      <span class="font-display text-2xl font-black tracking-tighter text-white">STIMYOULI</span>
     </a>
     
     <div class="hidden md:flex items-center gap-8">
