@@ -8,12 +8,15 @@ interface Props {
 
 const { title, description = "Stimyouli Group - Software Engineering & Infrastructure" } = Astro.props;
 const base = import.meta.env.BASE_URL;
+const site = Astro.site || 'https://lod93.github.io/Stimyouli/';
+const canonicalURL = new URL(Astro.url.pathname, site);
 ---
 
 <!doctype html>
 <html lang="en" class="bg-true-black text-white antialiased">
 	<head>
 		<meta charset="UTF-8" />
+		<link rel="canonical" href={canonicalURL} />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />

@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://stimyouli.github.io/stimyouli-public-repo/sitemap.xml
+
+Sitemap: https://lod93.github.io/Stimyouli/sitemap-index.xml
