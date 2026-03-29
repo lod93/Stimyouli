@@ -20,6 +20,17 @@ const base = import.meta.env.BASE_URL;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} | Stimyouli Group</title>
 		
+		<!-- LLM & Search Indexing -->
+		<link rel="alternate" type="application/ld+json" href={`${base}/metadata.jsonld`} title="Organization Metadata" />
+		<link rel="alternate" type="text/plain" href={`${base}/llms.txt`} title="LLM-friendly content" />
+		
+		<!-- Social Previews -->
+		<meta property="og:title" content={`${title} | Stimyouli Group`} />
+		<meta property="og:description" content={description} />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content={`${base}/social-preview.png`} />
+		<meta name="twitter:card" content="summary_large_image" />
+		
     <!-- Resource Hints -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

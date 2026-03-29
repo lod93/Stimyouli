@@ -1,50 +1,88 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import LinkCard from '../components/LinkCard.astro';
 const base = import.meta.env.BASE_URL;
 ---
 
 <Layout title="Portfolio" description="Selected work and strategic partner case studies.">
 	<Navigation />
 	
-	<main class="max-w-7xl mx-auto px-6 py-32">
-		<h1 class="text-6xl font-black mb-10 tracking-tighter text-white">Portfolio</h1>
+	<main class="max-w-7xl mx-auto px-6 py-40">
+		<h1 class="text-7xl font-black mb-10 tracking-tighter text-white">Portfolio</h1>
 		<p class="text-xl text-gray-500 max-w-2xl mb-24 leading-relaxed font-medium">
-			A curated selection of our most successful digital products, demonstrating our expertise across diverse industries.
+			A comprehensive index of corporate systems, e-commerce platforms, and industrial portals developed within the Stimyouli ecosystem.
 		</p>
 
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-48">
-			<LinkCard 
-				tag="Fashion" 
-				title="Noir-eg.com" 
-				description="Premium lifestyle accessories and jewelry platform with a dominant online presence in Egypt."
-				href="https://noir-eg.com"
-			/>
-			<LinkCard 
-				tag="Industrial" 
-				title="Setaraegypt.com" 
-				description="Modern corporate platform demonstrating industrial heritage and specialized engineering capabilities."
-				href="https://setaraegypt.com"
-			/>
-			<LinkCard 
-				tag="Logistics" 
-				title="Infinitylifts.sa" 
-				description="Corporate portals for engineering firms in KSA/Egypt, highlighting safety and complex project management."
-				href="https://infinitylifts.sa"
-			/>
-			<LinkCard 
-				tag="Retail" 
-				title="Stylishfurniture.store" 
-				description="Visually-driven e-commerce store with integrated sales management and interior design focus."
-				href="https://stylishfurniture.store"
-			/>
+		<div class="space-y-32 mb-48">
+			<!-- Architecture & Engineering -->
+			<section>
+				<h2 class="text-xs font-bold text-white uppercase tracking-[0.3em] mb-12 opacity-30 flex items-center gap-4">
+					Architecture & Engineering
+					<span class="h-[1px] bg-white/5 flex-grow"></span>
+				</h2>
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+					<LinkCard tag="Elevators" title="Infinitylifts.sa" description="High-safety engineering portal for KSA and Egypt operations." href="https://infinitylifts.sa"></LinkCard>
+					<LinkCard tag="Engineering" title="EUElevators.com" description="European standard elevator solutions and technical infrastructure." href="https://euelevators.com"></LinkCard>
+					<LinkCard tag="Industrial" title="Setaraegypt.com" description="Modern corporate platform for industrial heritage and engineering." href="https://setaraegypt.com"></LinkCard>
+					<LinkCard tag="Infrastructure" title="Elnilelevators.com" description="Regional infrastructure and lifting systems engineering." href="https://elnileelevators.com"></LinkCard>
+				</div>
+			</section>
+
+			<!-- Digital Retail & Commerce -->
+			<section>
+				<h2 class="text-xs font-bold text-white uppercase tracking-[0.3em] mb-12 opacity-30 flex items-center gap-4">
+					Digital Retail & Commerce
+					<span class="h-[1px] bg-white/5 flex-grow"></span>
+				</h2>
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+					<LinkCard tag="Luxury" title="Noir-eg.com" description="Premium lifestyle accessories and jewelry e-commerce powerhouse." href="https://noir-eg.com"></LinkCard>
+					<LinkCard tag="Interior" title="Stylishfurniture.shop" description="Visually-driven high-end furniture and interior commerce." href="https://stylishfurniture.shop"></LinkCard>
+					<LinkCard tag="Ecosystem" title="Be3.click" description="[Under Construction] Scalable marketplace infrastructure." href="https://be3.click"></LinkCard>
+					<LinkCard tag="SaaS" title="Aklatix.cloud" description="Cloud POS and real-time inventory management platform." href="https://aklatix.cloud"></LinkCard>
+				</div>
+			</section>
+
+			<!-- Enterprise & Business -->
+			<section>
+				<h2 class="text-xs font-bold text-white uppercase tracking-[0.3em] mb-12 opacity-30 flex items-center gap-4">
+					Enterprise & Creative
+					<span class="h-[1px] bg-white/5 flex-grow"></span>
+				</h2>
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+					<LinkCard tag="Business" title="Pencilplan.business" description="Strategic business planning and architectural design." href="https://pencilplan.business"></LinkCard>
+					<LinkCard tag="Agency" title="Secretagencyegypt.com" description="Boutique creative and secret marketing strategies." href="https://secretagencyegypt.com"></LinkCard>
+					<LinkCard tag="Media" title="Moodmakers.net" description="Experimental digital media and atmosphere production." href="https://moodmakers.net"></LinkCard>
+					<LinkCard tag="Consultancy" title="Tryangleinc.com" description="Corporate modernization and triangle strategy consulting." href="https://tryangleinc.com"></LinkCard>
+					<LinkCard tag="Enterprise" title="Esnad-om.com" description="Logistics and support services infrastructure." href="https://esnad-om.com"></LinkCard>
+					<LinkCard tag="Pure" title="Purecite.ru" description="Technology consulting and clean-code development." href="https://purecite.ru"></LinkCard>
+				</div>
+			</section>
+
+			<!-- Specialized & Regions -->
+			<section>
+				<h2 class="text-xs font-bold text-white uppercase tracking-[0.3em] mb-12 opacity-30 flex items-center gap-4">
+					Specialized & Regional
+					<span class="h-[1px] bg-white/5 flex-grow"></span>
+				</h2>
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+					<LinkCard tag="Real Estate" title="El3asima.com" description="New Capital real estate and investment architecture." href="https://el3asima.com"></LinkCard>
+					<LinkCard tag="Geospatial" title="Map-eg.net" description="Mapping and regional data visualization systems." href="https://map-eg.net"></LinkCard>
+					<LinkCard tag="Corporate" title="Elsakr.company" description="Logistics and conglomerate management." href="https://elsakr.company"></LinkCard>
+					<LinkCard tag="Community" title="Ozone-camp.com" description="Experience design and community infrastructure." href="https://ozone-camp.com"></LinkCard>
+				</div>
+			</section>
 		</div>
 
-    <section class="border-t border-white/5 pt-20">
-      <h2 class="text-3xl font-bold mb-12">Strategic Partners</h2>
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12 opacity-50 grayscale hover:grayscale-0 transition-all">
-        <div class="flex items-center justify-center h-20 bg-white/5 rounded-xl border border-white/5">Logo 1</div>
-        <div class="flex items-center justify-center h-20 bg-white/5 rounded-xl border border-white/5">Logo 2</div>
-        <div class="flex items-center justify-center h-20 bg-white/5 rounded-xl border border-white/5">Logo 3</div>
-        <div class="flex items-center justify-center h-20 bg-white/5 rounded-xl border border-white/5">Logo 4</div>
-        <div class="flex items-center justify-center h-20 bg-white/5 rounded-xl border border-white/5">Logo 5</div>
+    <section class="border-t border-white/5 pt-32">
+      <h2 class="text-2xl font-bold mb-16 text-white uppercase tracking-widest opacity-50 text-center">Strategic Partners</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12 opacity-30 grayscale hover:grayscale-0 transition-all duration-700">
+        <div class="flex items-center justify-center h-24 bg-white/5 rounded-2xl border border-white/5 font-bold text-xs uppercase tracking-widest">Global Corp</div>
+        <div class="flex items-center justify-center h-24 bg-white/5 rounded-2xl border border-white/5 font-bold text-xs uppercase tracking-widest">Tech Systems</div>
+        <div class="flex items-center justify-center h-24 bg-white/5 rounded-2xl border border-white/5 font-bold text-xs uppercase tracking-widest">Aero Dynamics</div>
+        <div class="flex items-center justify-center h-24 bg-white/5 rounded-2xl border border-white/5 font-bold text-xs uppercase tracking-widest">Infra Group</div>
+        <div class="flex items-center justify-center h-24 bg-white/5 rounded-2xl border border-white/5 font-bold text-xs uppercase tracking-widest">Eco Solutions</div>
       </div>
     </section>
 	</main>

@@ -16,24 +16,9 @@ const base = import.meta.env.BASE_URL;
 		</p>
 
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-			<LinkCard 
-				tag="Engineering" 
-				title="Software Engineering" 
-				description="High-performance, scalable software building with Next.js, Node.js, and Flask."
-				href={`${base}/#engineering`}
-			/>
-			<LinkCard 
-				tag="Infrastructure" 
-				title="Cloud & Hosting" 
-				description="Global cloud hosting and VPS solutions via 1100.website and Jabalhost."
-				href={`${base}/#infrastructure`}
-			/>
-			<LinkCard 
-				tag="SaaS" 
-				title="Business Solutions" 
-				description="Cloud-native platforms like Aklatix.cloud for real-time operations."
-				href="https://aklatix.cloud"
-			/>
+			<LinkCard tag="Engineering" title="Software Engineering" description="High-performance, scalable software building with Next.js, Node.js, and Flask." href={`${base}/#engineering`}></LinkCard>
+			<LinkCard tag="Infrastructure" title="Cloud & Hosting" description="Global cloud hosting and VPS solutions via 1100.website and Jabalhost." href={`${base}/#infrastructure`}></LinkCard>
+			<LinkCard tag="SaaS" title="Business Solutions" description="Cloud-native platforms like Aklatix.cloud for real-time operations." href="https://aklatix.cloud"></LinkCard>
 		</div>
 
 		<div class="mt-40 space-y-32">

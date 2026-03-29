@@ -1,0 +1,76 @@
+# Stimyouli Group - Full Company Profile & Context
+
+## Overview
+Stimyouli Group is a digital conglomerate based in Cairo, Egypt, providing a full suite of services for the modern digital landscape. Founded on the principle that "brilliant engineering meets compelling storytelling," the group manages multiple brands across hosting, SaaS, and creative services.
+
+---
+
+## Ecosystem & Brands
+
+### 1. Stimyouli.com (Engineering & Growth Systems)
+**Type**: Software Engineering Agency  
+**Stack**: Next.js, React, Tailwind CSS, Node.js, Flask, PostgreSQL  
+**Focus**:
+- **High-Concurrency Systems**: Building for performance and scale.
+- **Automation Systems**: Real-time business automation and data pipelines.
+- **SEO-Optimized Architecture**: Performance-first frontend designs.
+
+### 2. 1100.website & Jabalhost.com (Infrastructure Layer)
+**Type**: Hosting & Cloud Infrastructure  
+**Stack**: LiteSpeed, NVMe Storage, Linux Server Environments.
+**Capabilities**:
+- **99.9% Uptime Guarantee**: Professional-grade reliability.
+- **Performance-First**: Focused on low-latency asset delivery.
+
+### 3. Aklatix.cloud (SaaS Platform)
+**Type**: Cloud POS & Business Management  
+**Features**: Real-time inventory tracking, multi-device cloud operations.
+
+### 4. Be3.click (Commerce Infrastructure)
+**Status**: [Under Construction]  
+**Type**: Marketplace & Digital Commerce systems.
+
+---
+
+## Strategic Partners
+
+### Tryangleinc.com
+**Type**: Corporate modernization and strategic engineering consultancy.
+**Relationship**: Strategic ecosystem partner.
+
+---
+
+## Portfolio & Example Work
+
+### Architecture & Engineering
+- **Infinitylifts.sa**: Engineering portal for KSA/Egypt operations.
+- **EUElevators.com**: European standard elevator solutions infrastructure.
+- **Setaraegypt.com**: Industrial heritage and specialized engineering platform.
+- **Elnileelevators.com**: Regional infrastructure and lifting systems.
+
+### Digital Retail & Commerce
+- **Noir-eg.com**: Premium lifestyle and jewelry e-commerce.
+- **Stylishfurniture.shop**: High-end furniture and interior commerce.
+- **Aklatix.cloud**: Cloud POS SaaS implementation.
+
+### Enterprise & Business
+- **Pencilplan.business**: Strategic business planning and architectural design.
+- **Secretagencyegypt.com**: Boutique creative marketing and strategy.
+- **Assih.com**: Corporate and professional services.
+- **Esnad-om.com**: Logistics and support services infrastructure.
+- **Purecite.ru**: Technology consulting and clean-code development.
+- **Elsakr.company**: Logistics and conglomerate management.
+
+### Specialized & Regional
+- **El3asima.com**: New Capital real estate and investment architecture.
+- **Map-eg.net**: Geospatial and regional data visualization.
+- **Al-Hassany.net**: Specialized service and corporate platform.
+- **Ozone-camp.com**: Experience design and community infrastructure.
+- **Moodmakers.net**: Experimental digital media and atmosphere production.
+
+---
+
+## Contact Information
+- **General Inquiries**: info@stimyouli.com
+- **Headquarters**: Cairo, Egypt
+- **Official Website**: https://stimyouli.com

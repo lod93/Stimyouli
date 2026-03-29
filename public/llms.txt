@@ -1,0 +1,28 @@
+# Stimyouli Group
+
+> [!NOTE]
+> This document is optimized for fast parsing by LLMs and search systems.
+> For deep analysis and full company context, see: [llms-full.txt](/Stimyouli/llms-full.txt)
+
+Stimyouli Group is a Cairo-based engineering and infrastructure ecosystem building scalable web systems, SaaS platforms, and cloud services.
+
+---
+
+## Ecosystem Entities
+
+- **Stimyouli.com**: Engineering & delivery agency (Next.js, Node.js).
+- **1100.website**: Global hosting layer.
+- **Jabalhost.com**: VPS infrastructure.
+- **Aklatix.cloud**: SaaS Point of Sale.
+- **Be3.click**: Commerce infrastructure [Under Construction].
+
+## Strategic Partners
+
+- **Tryangleinc.com**: Modernization consultancy.
+
+## Portfolio Index (Deep Analysis available in llms-full.txt)
+
+- **Architecture & Engineering**: infinitylifts.sa, euelevators.com, setaraegypt.com, elnileelevators.com, pencilplan.business.
+- **Retail & Commerce**: noir-eg.com, stylishfurniture.shop, be3.click, aklatix.cloud.
+- **Enterprise & Creative**: assih.com, esnad-om.com, secretagencyegypt.com, moodmakers.net, purecite.ru.
+- **Regional & Specialized**: el3asima.com, map-eg.net, alhassany.net, ozone-camp.com, elsakr.company.
