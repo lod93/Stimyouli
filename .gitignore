@@ -1,0 +1,7 @@
+factory/
+logo.png
+.gemini/
+*.tmp
+node_modules/
+dist/
+build/

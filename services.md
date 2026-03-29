@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Digital Solutions & Services | Stimyouli Group
 description: Detailed services for Software Engineering, AI Pipelines, Cloud Infrastructure, and Digital Growth. High-performance systems built for MENA and international markets.
 keywords: Next.js Development, Cloud Hosting Egypt, AI Automation, Digital Marketing Agency Cairo, SaaS Business Solutions
@@ -8,7 +9,35 @@ keywords: Next.js Development, Cloud Hosting Egypt, AI Automation, Digital Marke
 
 The Stimyouli Group offers a comprehensive suite of digital solutions through our specialized brands. We provide the expertise and infrastructure needed for full-spectrum digital transformation.
 
+<div class="ecosystem-grid">
+  <div class="entity-card">
+    <span class="tag">01</span>
+    <h3>Software Engineering & AI</h3>
+    <p>High-performance, scalable software building with Next.js, Node.js, and Flask. Optimized for real-time data and high concurrency.</p>
+  </div>
+
+  <div class="entity-card">
+    <span class="tag">02</span>
+    <h3>Infrastructure & Hosting</h3>
+    <p>Global cloud hosting and VPS solutions via 1100.website and Jabalhost. Proactive security monitoring and 24/7 technical support.</p>
+  </div>
+
+  <div class="entity-card">
+    <span class="tag">03</span>
+    <h3>Digital Marketing & Growth</h3>
+    <p>Data-driven technical SEO, SMM, and conversion strategies to dominate search rankings and build authority.</p>
+  </div>
+
+  <div class="entity-card">
+    <span class="tag">04</span>
+    <h3>Business Solutions (SaaS)</h3>
+    <p>Cloud-native platforms like Aklatix.cloud for real-time sales, inventory, and inventory tracking for modern retail.</p>
+  </div>
+</div>
+
 ---
+
+## Detailed Breakdown
 
 ## 💻 1. Software Engineering & AI
 

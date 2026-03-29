@@ -1,3 +1,8 @@
+---
+layout: default
+title: Company Profile | Stimyouli Group
+description: Learn about Stimyouli Group's mission, multi-entity structure, and engineering excellence in software and cloud infrastructure.
+---
 # Stimyouli Group | Company Profile
 
 ## 🏢 About the Group

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Stimyouli Group Portfolio | Strategic Digital Partners
 description: Selected work in e-commerce, industrial services, and corporate platforms built with modern technology stacks. Real-world solutions for scalable businesses.
 keywords: Next.js Portfolio, SaaS Examples, E-commerce Next.js, Industrial Digital Solutions
@@ -8,7 +9,35 @@ keywords: Next.js Portfolio, SaaS Examples, E-commerce Next.js, Industrial Digit
 
 A curated selection of our most successful digital products, demonstrating our expertise across diverse industries and technologies.
 
+<div class="ecosystem-grid">
+  <div class="entity-card">
+    <span class="tag">Fashion</span>
+    <h3>Noir-eg.com</h3>
+    <p>Premium lifestyle accessories and jewelry platform with a dominant online presence in Egypt.</p>
+  </div>
+
+  <div class="entity-card">
+    <span class="tag">Industrial</span>
+    <h3>Setaraegypt.com</h3>
+    <p>Modern corporate platform demonstrating industrial heritage and specialized engineering capabilities.</p>
+  </div>
+
+  <div class="entity-card">
+    <span class="tag">Logistics</span>
+    <h3>Infinitylifts.sa</h3>
+    <p>Corporate portals for engineering firms in KSA/Egypt, highlighting safety and complex project management.</p>
+  </div>
+
+  <div class="entity-card">
+    <span class="tag">Retail</span>
+    <h3>Stylishfurniture.store</h3>
+    <p>Visually-driven e-commerce store with integrated sales management and interior design focus.</p>
+  </div>
+</div>
+
 ---
+
+## Strategic Partners
 
 ## 🌟 Featured Work
 
